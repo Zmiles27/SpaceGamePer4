@@ -972,6 +972,7 @@ GameObject:
   - component: {fileID: 1989022698}
   - component: {fileID: 1989022700}
   - component: {fileID: 1989022699}
+  - component: {fileID: 1989022701}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -1138,6 +1139,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   jumpHight: 40
   rb: {fileID: 1989022698}
+--- !u!114 &1989022701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989022691}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b91e19cf6ec1281428e8e81564cc5e54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  resetYThreshold: -5
+  resetPosition: {x: 0, y: 2, z: 0}
 --- !u!1 &1993253765
 GameObject:
   m_ObjectHideFlags: 0
