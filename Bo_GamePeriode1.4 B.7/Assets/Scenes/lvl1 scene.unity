@@ -1438,51 +1438,6 @@ Transform:
   m_Father: {fileID: 1715122509}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &173283081
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 173283082}
-  - component: {fileID: 173283083}
-  m_Layer: 6
-  m_Name: JumpTrigger (2)
-  m_TagString: bouncePad
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &173283082
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 173283081}
-  m_LocalRotation: {x: -1.4210853e-14, y: -0.18538058, z: -8.881783e-15, w: 0.9826668}
-  m_LocalPosition: {x: 20.45, y: 0.11, z: -15.19}
-  m_LocalScale: {x: 0.75000024, y: 0.9027535, z: 0.75000006}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1134484601}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: -21.367, z: 0}
---- !u!65 &173283083
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 173283081}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.43342146, y: 2.5936728, z: 0.22696069}
-  m_Center: {x: -0.06671068, y: 0.29683387, z: 0.063479975}
 --- !u!1 &190509454 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4634640270854325525, guid: a9832821c879ee9458c5381f798e7915,
@@ -8681,8 +8636,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 256705104}
-  - {fileID: 1416856162}
-  - {fileID: 173283082}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9750,7 +9703,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5665513ae2514847a7dfdad6c2f4dc3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LaunchPower: 28
+  LaunchPower: 20
   rb: {fileID: 1310585992}
 --- !u!54 &1310585992
 Rigidbody:
@@ -9783,8 +9736,8 @@ MonoBehaviour:
   orientation: {fileID: 243029332}
   wallDistance: 0.6
   minumumJumpHeight: 1.5
-  wallRunGravity: 0
-  wallRunJumpForce: 0
+  wallRunGravity: 1
+  wallRunJumpForce: 0.3
   cam: {fileID: 1919443240}
   fov: 90
   wallRunfov: 110
@@ -9812,8 +9765,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   counterMovement: 0.175
-  maxSlopeAngle: 80
-  slideForce: 800
+  maxSlopeAngle: 180
+  slideForce: 600
   slideCounterMovement: 0.1
   jumpForce: 150
 --- !u!23 &1310585995
@@ -10551,51 +10504,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1416856161
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1416856162}
-  - component: {fileID: 1416856163}
-  m_Layer: 6
-  m_Name: JumpTrigger (1)
-  m_TagString: bouncePad
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1416856162
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1416856161}
-  m_LocalRotation: {x: -7.1054265e-15, y: -0.42113116, z: 1.304512e-15, w: 0.9069997}
-  m_LocalPosition: {x: 5.47, y: 0.97, z: -4.21}
-  m_LocalScale: {x: 0.75000024, y: 1.0394728, z: 0.75000006}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1134484601}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: -49.812, z: 0}
---- !u!65 &1416856163
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1416856161}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 0.4334214, y: 1.9999994, z: 0.22696069}
-  m_Center: {x: -0.06671073, y: 1.197004e-15, z: 0.063480236}
 --- !u!1 &1425498004 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5971913797768209726, guid: a9832821c879ee9458c5381f798e7915,
