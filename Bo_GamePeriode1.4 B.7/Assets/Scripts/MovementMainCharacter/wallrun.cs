@@ -52,7 +52,6 @@ public class wallrun : MonoBehaviour
     private void Update()
     {
         CheckWall();
-
         if (CanWallRun())
         {
             if (wallLeft)
@@ -69,7 +68,6 @@ public class wallrun : MonoBehaviour
             {
                 StopWallRun();
             }
-
         }
         else
         {
