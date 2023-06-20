@@ -19,7 +19,7 @@ public class levelSelect : MonoBehaviour
         {
             if (Input.GetKey(KeyCode.Space))
             {
-                SceneManager.LoadScene("level1");
+                SceneManager.LoadScene("lvl1 scene");
             }
         }
     }
