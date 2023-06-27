@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.05498621, g: 0.68703204, b: 0.9149213, a: 1}
+  m_IndirectSpecularColor: {r: 0.04335996, g: 0.69291985, b: 0.94781435, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2264,7 +2264,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 192664829}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -55}
+  m_LocalPosition: {x: 0, y: 0, z: -23}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2273,7 +2273,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -791.7, y: 444.7}
+  m_AnchoredPosition: {x: -776, y: 444.7}
   m_SizeDelta: {x: 200, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &192664831
@@ -12879,6 +12879,7 @@ GameObject:
   - component: {fileID: 1310585991}
   - component: {fileID: 1310585990}
   - component: {fileID: 1310585989}
+  - component: {fileID: 1310585997}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -12894,7 +12895,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1310585987}
   m_LocalRotation: {x: -0, y: 0.0011987967, z: -0, w: 0.9999993}
-  m_LocalPosition: {x: 7.65, y: 3.86, z: 122.65}
+  m_LocalPosition: {x: 6.597, y: 5.061, z: 123.782}
   m_LocalScale: {x: 0.6818, y: 0.85613626, z: 0.6818}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13060,6 +13061,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1310585987}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1310585997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310585987}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48042d923332b0f40b72b9cfff36dd29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1311637437
 GameObject:
   m_ObjectHideFlags: 0
@@ -18095,7 +18108,7 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1776021221}
-  m_Text: "Try To Jump Over\nThe Water You Don't \nWant To Demage The \nPackage\n\nTry
+  m_Text: "Try To Jump Over\nThe Water You Don't \nWant To Demage The\nPackage\n\nTry
     To Jump With Space"
   m_OffsetZ: 0
   m_CharacterSize: 1
@@ -18591,7 +18604,7 @@ GameObject:
   - component: {fileID: 1814729385}
   m_Layer: 6
   m_Name: EndBetaTrigger
-  m_TagString: Untagged
+  m_TagString: endBeta
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22504,8 +22517,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2103646050}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -104.3, y: 5.63, z: -258.4}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -100.47, y: 5.63, z: -258.08}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1814729384}

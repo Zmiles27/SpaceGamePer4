@@ -6,6 +6,7 @@ TagManager:
   tags:
   - planet1
   - bouncePad
+  - endBeta
   layers:
   - Default
   - TransparentFX
