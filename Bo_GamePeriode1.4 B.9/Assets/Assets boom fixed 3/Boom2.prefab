@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8224430950561662287
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3927655310811455298}
+  - component: {fileID: 4175714876322081888}
+  m_Layer: 6
+  m_Name: Boom2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3927655310811455298
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8224430950561662287}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 42.856, y: 4.1, z: -82.921}
+  m_LocalScale: {x: 250.06375, y: 162.59448, z: 100}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 9020649950180287206}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &4175714876322081888
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8224430950561662287}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.0029159002, y: 0.016131284, z: 0.0004157573}
+  m_Size: 0.03994765
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7882677631890217353}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7882677631890217353}
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7882677631890217353}
+  m_Enabled: 1
+--- !u!1001 &8837593175600743693
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 3927655310811455298}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 33eb48d200ffd724792750d4bb9d1fac,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 33eb48d200ffd724792750d4bb9d1fac,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.15845536
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 33eb48d200ffd724792750d4bb9d1fac,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.39623937
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 33eb48d200ffd724792750d4bb9d1fac,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.24369793
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 33eb48d200ffd724792750d4bb9d1fac,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.0017431927
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 33eb48d200ffd724792750d4bb9d1fac,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.0023546612
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 33eb48d200ffd724792750d4bb9d1fac,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.00033973693
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 33eb48d200ffd724792750d4bb9d1fac,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 33eb48d200ffd724792750d4bb9d1fac,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 33eb48d200ffd724792750d4bb9d1fac,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 33eb48d200ffd724792750d4bb9d1fac,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 33eb48d200ffd724792750d4bb9d1fac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 33eb48d200ffd724792750d4bb9d1fac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 33eb48d200ffd724792750d4bb9d1fac,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 33eb48d200ffd724792750d4bb9d1fac,
+        type: 3}
+      propertyPath: m_Name
+      value: Boom fixed2 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 33eb48d200ffd724792750d4bb9d1fac, type: 3}
+--- !u!23 &7882677631890217353 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 33eb48d200ffd724792750d4bb9d1fac,
+    type: 3}
+  m_PrefabInstance: {fileID: 8837593175600743693}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8530972157978900572 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 33eb48d200ffd724792750d4bb9d1fac,
+    type: 3}
+  m_PrefabInstance: {fileID: 8837593175600743693}
+  m_PrefabAsset: {fileID: 0}
+--- !u!205 &8880087787339187294
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8530972157978900572}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0.0074007213, y: -0.00019183755, z: 0.05653155}
+  m_Size: 0.13243482
+  m_FadeMode: 0
+  m_AnimateCrossFading: 0
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.6
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7882677631890217353}
+  - screenRelativeHeight: 0.3
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7882677631890217353}
+  - screenRelativeHeight: 0.1
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7882677631890217353}
+  m_Enabled: 1
+--- !u!4 &9020649950180287206 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 33eb48d200ffd724792750d4bb9d1fac,
+    type: 3}
+  m_PrefabInstance: {fileID: 8837593175600743693}
+  m_PrefabAsset: {fileID: 0}
