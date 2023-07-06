@@ -1,5 +1,5 @@
 // Some stupid rigidbody based movement by Dani
-
+using UnityEngine.Audio;
 using System;
 using UnityEngine;
 
@@ -12,6 +12,7 @@ public class movement : MonoBehaviour
 
     //Other
     private Rigidbody rb;
+    public AudioClip landed;
 
     //Rotation and look
     private float xRotation;
@@ -279,6 +280,7 @@ public class movement : MonoBehaviour
                 cancellingGrounded = false;
                 normalVector = normal;
                 CancelInvoke(nameof(StopGrounded));
+                
             }
         }
 
