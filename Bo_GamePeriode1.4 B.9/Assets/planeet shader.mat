@@ -61,4 +61,5 @@ Material:
     m_Colors:
     - _Tiling: {r: 4, g: 4, b: 0, a: 0}
     - _color: {r: 0.6418177, g: 0.8159278, b: 0.8125139, a: 0}
+    - _planeet_rotation_speed: {r: -0.002, g: 0.002, b: 0, a: 0}
   m_BuildTextureStacks: []

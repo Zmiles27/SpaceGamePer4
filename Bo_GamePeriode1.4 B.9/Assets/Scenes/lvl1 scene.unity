@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.04335996, g: 0.69291985, b: 0.94781435, a: 1}
+  m_IndirectSpecularColor: {r: 0.072796345, g: 0.6893765, b: 0.939073, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2393,8 +2393,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: fff
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 0fbca6fc7e33f964b9b12736dcd83d98, type: 2}
+  m_sharedMaterial: {fileID: 7492201804746147831, guid: 0fbca6fc7e33f964b9b12736dcd83d98,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2418,8 +2419,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 60
-  m_fontSizeBase: 60
+  m_fontSize: 250
+  m_fontSizeBase: 250
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -7681,8 +7682,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 744898312}
   m_LocalRotation: {x: 0.0008747647, y: 0.9676795, z: 0.0031454302, w: -0.25216213}
-  m_LocalPosition: {x: -20.92, y: 0.01, z: 8.88}
-  m_LocalScale: {x: 0.17133322, y: 0.24986835, z: 1}
+  m_LocalPosition: {x: -20.548, y: 0.21092, z: 8.6741}
+  m_LocalScale: {x: 0.201505, y: 0.3110361, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 943050191}
@@ -7706,7 +7707,7 @@ TextMesh:
   m_FontSize: 0
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -7730,7 +7731,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -10446,8 +10447,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 993377484}
   m_LocalRotation: {x: 0.0003118068, y: 0.98362356, z: 0.0011211794, w: 0.18023172}
-  m_LocalPosition: {x: -10.033, y: 1.32, z: -205.271}
-  m_LocalScale: {x: 0.09987979, y: 0.1286763, z: 1}
+  m_LocalPosition: {x: -9.9866, y: 1.4237, z: -205.25}
+  m_LocalScale: {x: 0.14489561, y: 0.13395202, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 943050191}
@@ -10461,13 +10462,8 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 993377484}
-  m_Text: 'Jump On Walls While Running On Them
-
-
-
-
-    Make Sure To Jump While Agains
-    The Wall'
+  m_Text: "Jump On Walls \nWhile Running On Them\n\nMake Sure To Jump\n While Agains
+    The Wall"
   m_OffsetZ: 0
   m_CharacterSize: 1
   m_LineSpacing: 1
@@ -10477,7 +10473,7 @@ TextMesh:
   m_FontSize: 0
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -10501,7 +10497,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -12904,8 +12900,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1293790544}
   m_LocalRotation: {x: 0.0008747647, y: 0.9676795, z: 0.0031454302, w: -0.25216213}
-  m_LocalPosition: {x: -15.48, y: 1.01, z: -160.34}
-  m_LocalScale: {x: 0.13294601, y: 0.12741788, z: 1}
+  m_LocalPosition: {x: -15.154, y: 1.129, z: -160.519}
+  m_LocalScale: {x: 0.16437367, y: 0.11387178, z: 0.82322}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 943050191}
@@ -12930,7 +12926,7 @@ TextMesh:
   m_FontSize: 0
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -12954,7 +12950,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -13007,13 +13003,13 @@ GameObject:
   - component: {fileID: 1310585996}
   - component: {fileID: 1310585995}
   - component: {fileID: 1310585994}
+  - component: {fileID: 1310585998}
   - component: {fileID: 1310585993}
   - component: {fileID: 1310585992}
   - component: {fileID: 1310585991}
   - component: {fileID: 1310585990}
   - component: {fileID: 1310585989}
   - component: {fileID: 1310585997}
-  - component: {fileID: 1310585998}
   m_Layer: 0
   m_Name: player
   m_TagString: Untagged
@@ -13116,10 +13112,10 @@ MonoBehaviour:
   wallRunJumpForce: 2
   cam: {fileID: 1919443240}
   fov: 90
-  wallRunfov: 110
-  wallRunfovTime: 20
-  camTilt: 30
-  camTiltTime: 30
+  wallRunfov: 130
+  wallRunfovTime: 10
+  camTilt: 60
+  camTiltTime: 10
 --- !u!114 &1310585994
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13134,7 +13130,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCam: {fileID: 2094535226}
   orientation: {fileID: 243029332}
-  landed: {fileID: 0}
+  landed: {fileID: 1310585998}
   moveSpeed: 800
   maxSpeed: 15
   grounded: 0
@@ -13220,7 +13216,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 71cbd397f52d00240b3feaa1f0259631, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.506
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -18317,8 +18313,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1776021221}
   m_LocalRotation: {x: -1.1641531e-10, y: 0.9210212, z: -0, w: 0.38951233}
-  m_LocalPosition: {x: -12.370274, y: 0.2060442, z: 10.301872}
-  m_LocalScale: {x: 0.1434988, y: 0.13600764, z: 1}
+  m_LocalPosition: {x: -12.202, y: 0.233, z: 10.469}
+  m_LocalScale: {x: 0.14238562, y: 0.116637625, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 943050191}
@@ -18343,7 +18339,7 @@ TextMesh:
   m_FontSize: 0
   m_FontStyle: 0
   m_RichText: 1
-  m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+  m_Font: {fileID: 12800000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
   m_Color:
     serializedVersion: 2
     rgba: 4294967295
@@ -18367,7 +18363,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10100, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 2100000, guid: e3265ab4bf004d28a9537516768c1c75, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -20984,7 +20980,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 29370a7548674e346b41cf9f93caaf1f, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.8
   m_Pitch: 1
   Loop: 1
   Mute: 0

@@ -12,7 +12,7 @@ public class movement : MonoBehaviour
 
     //Other
     private Rigidbody rb;
-    public AudioClip landed;
+    public AudioSource landed;
 
     //Rotation and look
     private float xRotation;
@@ -280,6 +280,7 @@ public class movement : MonoBehaviour
                 cancellingGrounded = false;
                 normalVector = normal;
                 CancelInvoke(nameof(StopGrounded));
+                landed.Play();
                 
             }
         }
